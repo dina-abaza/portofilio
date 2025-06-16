@@ -16,7 +16,7 @@ export default function Header() {
         
         <div className="flex flex-col md:flex-row items-center md:items-start w-2/3 gap-10 mt-10">
           <img
-            src="/myprofile.jpg"
+            src="/profile1.jpg"
             alt="صورة شخصية"
            className={`w-40 h-40 md:w-64 md:h-64 rounded-full mb-4 md:mb-0 md:mr-6 shadow-2xl transition-all duration-1000 ease-out ${
             animateImage ? "translate-y-0 opacity-100" : "-translate-y-20 opacity-0"
