@@ -73,7 +73,7 @@ export default function Contact() {
     <FaGithub/>
   </a>
   <a
-    href="https://www.linkedin.com/in/dina-nabil-abaza-b9b222365?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BAuaDIQLtRJmA4ZFFmi%2Byiw%3D%3D"
+    href="https://www.linkedin.com/in/dina-abaza-b9b222365/"
     target="_blank"
     rel="noopener noreferrer"
     className="text-blue-400 hover:text-white transition-colors"
