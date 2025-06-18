@@ -6,43 +6,43 @@ const projectData = [
     title: "E-Commerce Store",
     description: "An online store with product catalog, cart system, and user authentication.",
     techStack: "React.js, contextApp, React Router DOM, json-server",
-    github: "",
-    liveDemo: ""
+    github: "https://github.com/dina-abaza/e-commerce2",
+    liveDemo: "e-commerce2-dj5t.vercel.app"
   },
   {
     title: "Vitrine",
     description: "Vitrine is an online store for showcasing and selling modern home furniture, offering an easy and attractive shopping experience with a curated selection to suit all tastes.",
     techStack: "React.js, Tailwind CSS, zustand, React-Router-Dom, Axios",
-    github: "",
-    liveDemo: ""
+    github: "https://github.com/dina-abaza/E-commece-vitrine",
+    liveDemo: "e-commece-vitrine.vercel.app"
   },
   {
     title: "Booking hotel",
     description: "A web app for easy hotel and flight booking with search and price comparison features.",
     techStack: "React.js, zustand, React Router DOM ,axios ,server-json, tailwind css,json-server",
-    github: "",
-    liveDemo: ""
+    github: "https://github.com/dina-abaza/booking-hotels",
+    liveDemo: "booking-hotels-p38pwreof-dina-abazas-projects.vercel.app"
   },
   {
     title: "Dashboard",
     description: "a fully responsive and interactive admin dashboard designed for managing users,products,orders and settings",
     techStack: " React.js , React-Router-Dom , tailwind css , fetch-Api , zustand, json-server",
-    github: "",
-    liveDemo: ""
+    github: "https://github.com/dina-abaza/DashBoard2",
+    liveDemo: "dash-board2.vercel.app"
   },
   {
     title:"Simple Crud App",
     description:"a basic crud (creat,read,update,delete). the app allows users to manage a list of items",
     techStack:"html, css, vanilla javascript",
-    github:"",
-    liveDemo:""
+    github:"https://github.com/dina-abaza/crud",
+    liveDemo:"crud-hazel-nine.vercel.app"
   },
   {
     title:"Simple Quiz App",
     description:"a simple and interactive quiz application that allow users to take a quiz",
     techStack:"html, css, vanilla javascript,",
-    github:"",
-    liveDemo:""
+    github:"https://github.com/dina-abaza/simple-quiz",
+    liveDemo:"simple-quiz-uhc1.vercel.app"
   }
 ];
 
