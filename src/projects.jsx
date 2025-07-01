@@ -21,7 +21,7 @@ const projectData = [
     description: "A web app for easy hotel and flight booking with search and price comparison features.",
     techStack: "React.js, zustand, React Router DOM, axios, server-json, tailwind css, json-server",
     github: "https://github.com/dina-abaza/booking-hotels",
-    liveDemo: "https://booking-hotels-29sa.vercel.app"
+    liveDemo: "https://booking-hotels-b9ka.vercel.app"
   },
   {
     title: "Dashboard",
