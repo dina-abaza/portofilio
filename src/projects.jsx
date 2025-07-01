@@ -21,7 +21,7 @@ const projectData = [
     description: "A web app for easy hotel and flight booking with search and price comparison features.",
     techStack: "React.js, zustand, React Router DOM, axios, server-json, tailwind css, json-server",
     github: "https://github.com/dina-abaza/booking-hotels",
-    liveDemo: "https://booking-hotels-p38pwreof-dina-abazas-projects.vercel.app"
+    liveDemo: "https://booking-hotels-29sa.vercel.app"
   },
   {
     title: "Dashboard",
@@ -76,7 +76,7 @@ const Projects = () => {
               href={project.github}
               target="_blank"
               rel="noreferrer"
-              className="text-teal-400 hover:underline"
+              className="text-teal-400 hover:underline "
               >
                 🔗 GitHub
                 </a>
