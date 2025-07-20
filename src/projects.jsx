@@ -5,37 +5,31 @@ const projectData = [
   {
     title: "E-Commerce Store",
     description: "An online store with product catalog, cart system, and user authentication.",
-    techStack: "React.js, contextApp, React Router DOM, json-server",
+    techStack: "React.js, Tailwind css, ContextApp, React Router DOM, json-server",
     github: "https://github.com/dina-abaza/e-commerce2",
     liveDemo: "https://e-commerce2-dj5t.vercel.app"
   },
   {
-    title: "Vitrine",
-    description: "Vitrine is an online store for showcasing and selling modern home furniture, offering an easy and attractive shopping experience with a curated selection to suit all tastes.",
+    title: "Vitrine (e-commerce & dashboard)",
+    description: "An online furniture store offering a smooth shopping experience with product browsing, cart, checkout, and Stripe payment integration. Includes an admin dashboard for managing products and tracking orders.",
     techStack: "React.js, Tailwind CSS, zustand, React-Router-Dom, Axios",
     github: "https://github.com/dina-abaza/E-commece-vitrine",
-    liveDemo: "https://e-commece-vitrine.vercel.app"
+    liveDemo: "http://e-commece-vitrine-jm7x.vercel.app"
   },
   {
     title: "Booking hotel",
     description: "A web app for easy hotel and flight booking with search and price comparison features.",
-    techStack: "React.js, zustand, React Router DOM, axios, server-json, tailwind css, json-server",
+    techStack: "React.js, zustand, React Router DOM, Axios, Tailwind css, json-server",
     github: "https://github.com/dina-abaza/booking-hotels",
     liveDemo: "https://booking-hotels-b9ka.vercel.app"
   },
+ 
   {
-    title: "Dashboard",
-    description: "A fully responsive and interactive admin dashboard designed for managing users, products, orders, and settings.",
-    techStack: "React.js, React-Router-Dom, tailwind css, fetch-Api, zustand, json-server",
-    github: "https://github.com/dina-abaza/DashBoard2",
-    liveDemo: "https://dash-board2.vercel.app"
-  },
-  {
-    title: "Simple Crud App",
-    description: "A basic CRUD (Create, Read, Update, Delete) app that allows users to manage a list of items.",
-    techStack: "HTML, CSS, Vanilla JavaScript",
-    github: "https://github.com/dina-abaza/crud",
-    liveDemo: "https://crud-hazel-nine.vercel.app"
+    title: "restaurant reservation",
+    description: "A full-stack restaurant reservation system that allows users to book tables, log in, and communicate with the restaurant. Connected to a real Laravel back-end for managing reservations and users.",
+    techStack: " React.js, Tailwind css, React Router DOM, Axios, Zustand, larvel",
+    github: "https://github.com/dina-abaza/food-corner",
+    liveDemo: "http://food-corner-roan.vercel.app"
   },
   {
     title: "Simple Quiz App",
