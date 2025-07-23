@@ -1,12 +1,32 @@
-# React + Vite
+💼 Dina Nabil Abaza – Front-End Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website showcasing my skills, projects, and certifications as a Front-End Developer. Built with modern tools and technologies to deliver a smooth, animated, and responsive experience.
 
-Currently, two official plugins are available:
+ 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[View the live website](https://portofilio-l9ls.vercel.app)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+💻 Technologies Used
+
+- **React.js** – For building dynamic UI components
+- **Tailwind CSS** – For fast, responsive, and modern styling
+- **Framer Motion** – For smooth animations and transitions
+
+ ✨ Features
+
+- 🖼️ Personal introduction with image and animated sections
+- 🧠 Skills section with categorized tools and technologies
+- 🧪 Projects showcase with screenshots and descriptions
+- 🏅 Certifications display (if available)
+- 📱 Fully responsive design across devices
+- 🎞️ Subtle and elegant animations to enhance UX
+
+
+📌 Notes
+
+- Code is organized, readable, and scalable
+- Easily extendable to add blog, contact form, or dark mode
+- Ready to be deployed to Netlify, Vercel, or GitHub Pages
+
