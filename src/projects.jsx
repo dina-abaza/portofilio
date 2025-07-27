@@ -4,7 +4,7 @@ import { FaProjectDiagram } from 'react-icons/fa';
 const projectData = [
   {
     title: "E-Commerce Store",
-    description: "An online store with product catalog, cart system, and user authentication.",
+    description: "An online store with product catalog, cart system, and user authentication. Users can browse categories, view product details, and manage their cart with ease. The app supports login and registration, and maintains cart state dynamically using Context API. It's styled with responsive Tailwind CSS and simulates a full-stack experience with JSON Server.",
     techStack: "React.js, Tailwind css, ContextApp, React Router DOM, json-server",
     github: "https://github.com/dina-abaza/e-commerce2",
     liveDemo: "https://e-commerce2-dj5t.vercel.app"
@@ -18,7 +18,7 @@ const projectData = [
   },
   {
     title: "Booking hotel",
-    description: "A web app for easy hotel and flight booking with search and price comparison features.",
+    description:"A web app for easy hotel and flight booking with search and price comparison features. Users can filter hotels by location and price, view details, and simulate booking. It includes state management via Zustand and seamless navigation with React Router DOM. The interface is responsive and modern, ensuring a smooth experience across devices.",
     techStack: "React.js, zustand, React Router DOM, Axios, Tailwind css, json-server",
     github: "https://github.com/dina-abaza/booking-hotels",
     liveDemo: "https://booking-hotels-b9ka.vercel.app"
@@ -33,7 +33,7 @@ const projectData = [
   },
   {
     title: "Simple Quiz App",
-    description: "A simple and interactive quiz application that allows users to take a quiz.",
+    description: "A simple and interactive quiz application that allows users to take a quiz. The app includes multiple-choice questions with instant feedback on each answer. It tracks user progress and shows the final score. It’s designed to be lightweight, responsive, and engaging for users using only HTML, CSS, and Vanilla JavaScript.",
     techStack: "HTML, CSS, Vanilla JavaScript",
     github: "https://github.com/dina-abaza/simple-quiz",
     liveDemo: "https://simple-quiz-uhc1.vercel.app"
