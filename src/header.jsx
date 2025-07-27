@@ -25,7 +25,7 @@ export default function Header() {
       id="home"
       className="bg-black text-white flex items-center justify-between gap-20 w-full"
     >
-      {/* الصورة والنص */}
+    
       <div className="flex flex-col md:flex-row items-center md:items-start w-2/3 gap-10 mt-10">
         <img
           src="/profile1.jpg"
@@ -45,15 +45,19 @@ export default function Header() {
             <br />
             I build modern, responsive websites using React.
           </p>
-          <a href="#end-of-page">
-            <button className="text-teal-600 text-2xl border-2 border-teal-600 rounded-md hover:text-white transform transition-colors duration-700 focus:outline-none">
-              Let's Talk
-            </button>
-          </a>
+         <a
+         href="/cv.pdf"
+         target="_blank"
+         rel="noopener noreferrer"
+         >
+          <button className="text-teal-600 text-lg border-2 border-teal-600 rounded-md hover:text-white transform transition-colors duration-700 focus:outline-none">
+         View My CV
+           </button>
+           </a>
         </div>
       </div>
 
-      {/* القائمة الجانبية */}
+
       <div
         id="menu"
         className="fixed top-20 right-5 md:right-20 z-50 flex justify-center items-center"
