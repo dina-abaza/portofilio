@@ -60,7 +60,7 @@ export default function Header() {
 
       <div
         id="menu"
-        className="fixed top-20 right-5 md:right-20 z-50 flex justify-center items-center"
+        className="fixed top-20 right-5 md:right-10 z-50 flex justify-center items-center"
       >
         <ul className="flex flex-col gap-4 text-3xl">
           <li className="menu-item">
