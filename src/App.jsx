@@ -11,7 +11,8 @@ import Contact from './contact';
 function App() {
 
   return (
-  <div>
+  <div className='min-h-screen px-6 md:px-20'>
+
      <Header/>
      <Skills/>
      <About/>

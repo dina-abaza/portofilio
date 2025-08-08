@@ -9,7 +9,9 @@ import {
   FaBook,
 } from "react-icons/fa";
 
+
 export default function Header() {
+
   const [animateImage, setAnimateImage] = useState(false);
 
   useEffect(() => {
@@ -30,12 +32,14 @@ export default function Header() {
         <img
           src="/profile1.jpg"
           alt="صورة شخصية"
-          className={`w-40 h-40 md:w-64 md:h-64 rounded-full mb-4 md:mb-0 md:mr-6 shadow-2xl transition-all duration-1000 ease-out ${
+          className={`w-40 h-40 md:w-60 md:h-60 rounded-full mb-4 md:mb-0 md:mr-6 shadow-2xl transition-all duration-1000 ease-out ${
             animateImage
               ? "translate-y-0 opacity-100"
               : "-translate-y-20 opacity-0"
           }`}
         />
+    
+
         <div className="text-center md:text-left">
           <h2 className="text-3xl md:text-5xl font-semibold mb-4 pulse-effect">
             Hi, I'm Dina 👋
@@ -62,38 +66,48 @@ export default function Header() {
         id="menu"
         className="fixed top-20 right-5 md:right-10 z-50 flex justify-center items-center"
       >
-        <ul className="flex flex-col gap-4 text-3xl">
+        
+        
+        <ul className="flex flex-col gap-4 text-3xl px-4">
+
           <li className="menu-item">
             <a href="#home">
-              <FaHome className="text-white hover:opacity-50 hover:scale-110 transition duration-300" />
-            </a>
-          </li>
-          <li className="menu-item">
-            <a href="#skills">
-              <FaBook className="text-white hover:opacity-50 hover:scale-110 transition duration-300" />
-            </a>
-          </li>
-          <li className="menu-item">
-            <a href="#about">
-              <FaUser className="text-white hover:opacity-50 hover:scale-110 transition duration-300" />
-            </a>
-          </li>
-          <li className="menu-item">
-            <a href="#education">
-              <FaGraduationCap className="text-white hover:opacity-50 hover:scale-110 transition duration-300" />
-            </a>
-          </li>
-          <li className="menu-item">
-            <a href="#projects">
-              <FaProjectDiagram className="text-white hover:opacity-50 hover:scale-110 transition duration-300" />
-            </a>
-          </li>
-          <li className="menu-item">
-            <a href="#contact">
-              <FaEnvelope className="text-white hover:opacity-50 hover:scale-110 transition duration-300" />
-            </a>
-          </li>
-        </ul>
+               <FaHome className="text-white transition duration-300 spin-every-5s icon-hover" />
+               </a>
+              </li>
+               
+               <li className="menu-item">
+                <a href="#skills">
+                  <FaBook className="text-white transition duration-300 spin-every-5s icon-hover" />
+                  </a>
+                </li>
+                
+                <li className="menu-item">
+                   <a href="#about">
+                    <FaUser className="text-white transition duration-300 spin-every-5s icon-hover" />
+                  </a>
+                </li>
+                
+                <li className="menu-item">
+                  <a href="#education">
+                    <FaGraduationCap className="text-white transition duration-300 spin-every-5s icon-hover" />
+                    </a>
+                </li>
+                
+              <li className="menu-item">
+                <a href="#projects">
+                  <FaProjectDiagram className="text-white transition duration-300 spin-every-5s icon-hover" />
+                  </a>
+                </li>
+                
+              <li className="menu-item">
+                <a href="#contact">
+                  <FaEnvelope className="text-white transition duration-300 spin-every-5s icon-hover" />
+                  </a>
+              </li>
+              
+            </ul>
+
       </div>
     </section>
   );

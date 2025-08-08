@@ -22,6 +22,7 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   display: block;
+
 }
 
 h1 {
@@ -59,6 +60,25 @@ html {
 
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+
+/* أنيميشن دوران بطيء مخصص */
+@keyframes spin-custom {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* كلاس لتطبيق الأنيميشن */
+.spin-every-5s {
+  animation: spin-custom 5s linear infinite;
+}
+
+/* سكيل عند الهوفر */
+.icon-hover:hover {
+  transform: scale(1.2);
+  opacity: 0.5;
+}

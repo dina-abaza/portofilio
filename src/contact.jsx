@@ -62,7 +62,8 @@ export default function Contact() {
           </button>
         </form>
       </div>
-
+      
+      
       <div id='end-of-page'  className="flex justify-center gap-8 mt-20 text-2xl">
   <a
     href="https://github.com/dina-abaza"
@@ -96,7 +97,8 @@ export default function Contact() {
         >
           <FaWhatsapp />
         </a>
-</div>
+        
+        </div>
 
     </section>
   );
