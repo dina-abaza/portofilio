@@ -72,37 +72,37 @@ export default function Header() {
 
           <li className="menu-item">
             <a href="#home">
-               <FaHome className="text-white transition duration-300 spin-every-5s icon-hover" />
+               <FaHome className="text-white transition duration-300 hover:opacity-50" />
                </a>
               </li>
                
                <li className="menu-item">
                 <a href="#skills">
-                  <FaBook className="text-white transition duration-300 spin-every-5s icon-hover" />
+                  <FaBook className="text-white transition duration-300 hover:opacity-50 " />
                   </a>
                 </li>
                 
                 <li className="menu-item">
                    <a href="#about">
-                    <FaUser className="text-white transition duration-300 spin-every-5s icon-hover" />
+                    <FaUser className="text-white transition duration-300 hover:opacity-50" />
                   </a>
                 </li>
                 
                 <li className="menu-item">
                   <a href="#education">
-                    <FaGraduationCap className="text-white transition duration-300 spin-every-5s icon-hover" />
+                    <FaGraduationCap className="text-white transition duration-300  hover:opacity-50" />
                     </a>
                 </li>
                 
               <li className="menu-item">
                 <a href="#projects">
-                  <FaProjectDiagram className="text-white transition duration-300 spin-every-5s icon-hover" />
+                  <FaProjectDiagram className="text-white transition duration-300 hover:opacity-50" />
                   </a>
                 </li>
                 
               <li className="menu-item">
                 <a href="#contact">
-                  <FaEnvelope className="text-white transition duration-300 spin-every-5s icon-hover" />
+                  <FaEnvelope className="text-white transition duration-300 hover:opacity-50" />
                   </a>
               </li>
               

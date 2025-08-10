@@ -16,13 +16,6 @@ const projectData = [
     github: "https://github.com/dina-abaza/E-commece-vitrine",
     liveDemo: "http://e-commece-vitrine-jm7x.vercel.app"
   },
-  {
-    title: "Booking hotel",
-    description:"A web app for easy hotel and flight booking with search and price comparison features. Users can filter hotels by location and price, view details, and simulate booking. It includes state management via Zustand and seamless navigation with React Router DOM. The interface is responsive and modern, ensuring a smooth experience across devices.",
-    techStack: "React.js, zustand, React Router DOM, Axios, Tailwind css, json-server",
-    github: "https://github.com/dina-abaza/booking-hotels",
-    liveDemo: "https://booking-hotels-b9ka.vercel.app"
-  },
  
   {
     title: "restaurant reservation",
@@ -31,13 +24,6 @@ const projectData = [
     github: "https://github.com/dina-abaza/food-corner",
     liveDemo: "http://food-corner-roan.vercel.app"
   },
-  {
-    title: "Simple Quiz App",
-    description: "A simple and interactive quiz application that allows users to take a quiz. The app includes multiple-choice questions with instant feedback on each answer. It tracks user progress and shows the final score. It’s designed to be lightweight, responsive, and engaging for users using only HTML, CSS, and Vanilla JavaScript.",
-    techStack: "HTML, CSS, Vanilla JavaScript",
-    github: "https://github.com/dina-abaza/simple-quiz",
-    liveDemo: "https://simple-quiz-uhc1.vercel.app"
-  }
 ];
 
 const Projects = () => {
