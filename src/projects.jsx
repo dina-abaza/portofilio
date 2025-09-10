@@ -12,7 +12,7 @@ const projectData = [
   {
     title: "Vitrine (e-commerce & dashboard)",
     description: "An online furniture store offering a smooth shopping experience with product browsing, cart, checkout, and Stripe payment integration. Includes an admin dashboard for managing products and tracking orders.",
-    techStack: "React.js, Tailwind CSS, zustand, React-Router-Dom, Axios",
+    techStack: "React.js, Tailwind CSS, zustand, React-Router-Dom, Axios, node.js",
     github: "https://github.com/dina-abaza/E-commece-vitrine",
     liveDemo: "http://e-commece-vitrine-jm7x.vercel.app"
   },
@@ -23,6 +23,13 @@ const projectData = [
     techStack: " React.js, Tailwind css, React Router DOM, Axios, Zustand, larvel",
     github: "https://github.com/dina-abaza/food-corner",
     liveDemo: "http://food-corner-roan.vercel.app"
+  },
+   {
+    title: "down-syndrome",
+    description: "Down Syndrome Center platform providing personalized content, articles, videos, tips, and events based on the child’s age and specific challenges through a detailed survey. Includes fast AI-powered chat for instant support and appointment booking, fully optimized for mobile devices.",
+    techStack: " React.js, Tailwind css, React Router DOM, Axios, Zustand, framer-motion, toastify, lottiefiles, node.js",
+    github: "https://github.com/dina-abaza/down-syndrome",
+    liveDemo: "https://down-syndrome-one.vercel.app/"
   },
 ];
 
