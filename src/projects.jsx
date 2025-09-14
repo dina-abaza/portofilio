@@ -31,6 +31,13 @@ const projectData = [
     github: "https://github.com/dina-abaza/down-syndrome",
     liveDemo: "https://down-syndrome-one.vercel.app/"
   },
+  {
+    title: "booking-hotels",
+    description: "A full-featured hotel booking app with a real backend, allowing users to browse hotels, book rooms, pay securely via Stripe, and communicate with hotel management—all in a sleek, responsive interface built with React and Tailwind CSS.",
+    techStack: " React.js, Tailwind css, React Router DOM, Axios, Zustand, framer-motion, toastify, node.js",
+    github: "https://github.com/dina-abaza/portofilio",
+    liveDemo: "https://booking-hotels-ue7g.vercel.app/"
+  },
 ];
 
 const Projects = () => {
