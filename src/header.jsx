@@ -50,7 +50,7 @@ export default function Header() {
             I build modern, responsive websites using React.
           </p>
          <a
-         href="/mycv.pdf"
+         href="/myNewCv.pdf"
          target="_blank"
          rel="noopener noreferrer"
          >
