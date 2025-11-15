@@ -3,9 +3,9 @@ import { FaEnvelope, FaGithub, FaLinkedin, FaFacebook, FaWhatsapp  } from 'react
 export default function Contact() {
   return (
     <section id="contact" className="w-full  bg-black text-white py-20">
-      <div className="w-full max-w-3xl mx-auto px-6">
-        <h2 className="text-3xl font-semibold text-center uppercase mb-6 flex justify-center items-center pulse-effect">
-          <FaEnvelope className="mr-2 text-teal-400 text-2xl" />
+      <div className="w-full max-w-4xl mx-auto px-3 sm:px-6">
+        <h2 className="text-3xl font-semibold text-center uppercase mb-6 flex flex-col sm:flex-row md:flex-row justify-center items-center gap-2 pulse-effect whitespace-nowrap">
+          <FaEnvelope className="hidden md:block sm:block mr-2 text-teal-400 text-2xl" />
           Contact Me
         </h2>
         <p className="text-lg text-center mb-12">Feel free to reach out via the form below!</p>
@@ -13,7 +13,7 @@ export default function Contact() {
         <form
           action="https://formspree.io/f/mjkwozqb" 
           method="POST"
-          className="bg-gray-900 p-6 rounded-lg shadow-md space-y-6"
+          className="bg-gray-900 w-full p-6 rounded-lg shadow-md space-y-6"
         >
           <div>
             <label htmlFor="name" className="block text-sm font-medium mb-1">
@@ -24,7 +24,7 @@ export default function Contact() {
               name="name"
               id="name"
               required
-              className="w-full p-2 rounded bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-teal-500"
+              className="w-full  py-0.5 px-1 md:py-1 md:px-2 rounded bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-teal-500"
             />
           </div>
 
@@ -37,7 +37,7 @@ export default function Contact() {
               name="email"
               id="email"
               required
-              className="w-full p-2 rounded bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-teal-500"
+              className="w-full py-0.5 px-1 md:py-1 md:px-2 rounded bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-teal-500"
             />
           </div>
 
@@ -50,13 +50,13 @@ export default function Contact() {
               id="message"
               rows="5"
               required
-              className="w-full p-2 rounded bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-teal-500"
+              className="w-full py-0.5 px-1 md:py-1 md:px-2 rounded bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-teal-500"
             ></textarea>
           </div>
 
           <button
             type="submit"
-            className="w-full  bg-gray-800 text-white py-2 rounded hover:bg-teal-600 transition-colors"
+            className="w-full bg-gray-800 text-white text-[14px] md:text-[20px] py-0.5 px-1 md:py-1 md:px-2 rounded hover:bg-white/5 transition-colors duration-200 whitespace-nowrap"
           >
             Send Message
           </button>

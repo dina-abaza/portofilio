@@ -25,7 +25,7 @@ const projectData = [
     liveDemo: "http://food-corner-roan.vercel.app"
   },
    {
-    title: "down-syndrome",
+    title: "Down Center & Dashboard Platform",
     description: "Down Syndrome Center platform providing personalized content, articles, videos, tips, and events based on the child’s age and specific challenges through a detailed survey. Includes fast AI-powered chat for instant support and appointment booking, fully optimized for mobile devices.",
     techStack: " React.js, Tailwind css, React Router DOM, Axios, Zustand, framer-motion, toastify, lottiefiles, node.js",
     github: "https://github.com/dina-abaza/down-syndrome",
@@ -43,11 +43,12 @@ const projectData = [
 const Projects = () => {
   return (
     <section id="projects" className="w-full bg-black text-white py-20">
-      <div className="w-full max-w-7xl mx-auto px-6">
-        <h2 className="text-3xl font-semibold text-center uppercase mb-6 flex justify-center items-center pulse-effect">
-          <FaProjectDiagram className="mr-2 text-teal-400 text-2xl" />
-          My Projects
-        </h2>
+      <div className="w-full max-w-7xl mx-auto px-1 sm:px-2 md:px-4">
+       <h2 className="text-2xl sm:text-3xl font-semibold text-center uppercase mb-6 flex justify-center items-center pulse-effect">
+  <FaProjectDiagram className="hidden sm:block md:block mb-2 sm:mb-0 sm:mr-2 text-teal-400 text-2xl" />
+  My Projects
+</h2>
+
         <p className="text-lg text-center mb-16">
           Some of the projects I’ve built using modern web technologies:
         </p>
@@ -57,10 +58,11 @@ const Projects = () => {
           
             <div
               key={index}
-              className="bg-gray-900 p-6 rounded-lg border border-white/10 shadow-lg shadow-teal-400/20 hover:shadow-teal-400/50 hover:scale-105 transition duration-300 flex flex-col min-h-[340px]"
+              className="bg-gray-900 w-full p-4 sm:p-5 md:p-6 rounded-lg border border-white/10 shadow-lg shadow-teal-400/20 hover:shadow-teal-400/50 hover:scale-105 transition duration-300 flex flex-col min-h-[340px]"
             >
               <h3 className="text-xl font-semibold text-teal-400 mb-2">{project.title}</h3>
-              <p className="text-gray-300 mb-4">{project.description}</p>
+              
+              <p className="text-gray-300 mb-4 flex-grow ">{project.description}</p>
               <p className="text-sm text-gray-400">
                 <span className="font-semibold text-white">Tech:</span> {project.techStack}
               </p>

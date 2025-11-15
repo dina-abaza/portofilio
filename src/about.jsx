@@ -4,8 +4,8 @@ export default function About() {
   return (
     <section id="about" className="w-full bg-black text-white py-12 px-6 mt-20">
       <div >
-        <h2 className="text-3xl font-bold mb-12 text-center uppercase pulse-effect flex items-center justify-center">
-          <FaUser className="mr-2 text-teal-400 text-2xl"/>
+        <h2 className="text-3xl font-bold mb-12 text-center uppercase pulse-effect flex items-center justify-center whitespace-nowrap">
+          <FaUser className="hidden sm:block md:block mr-2 text-teal-400 text-2xl"/>
           About Me</h2>
 
         <div className="text-lg text-gray-300 leading-relaxed space-y-6">
