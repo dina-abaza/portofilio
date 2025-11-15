@@ -44,7 +44,7 @@ export default function Skills() {
           Here are the technologies I use to build modern web applications:
         </p>
 
-        <div className="max-w-xl mx-auto">
+        <div className="max-w-full mx-auto">
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-6 md:gap-10 justify-center items-center">
             {skills.map((skill, index) => {
               const isLeft = index % 2 === 0;
@@ -57,7 +57,7 @@ export default function Skills() {
                   viewport={{ once: true }}
                   className="flex flex-col items-center text-center transition-transform duration-300 hover:scale-105"
                 >
-                  <div className="text-5xl sm:text-7xl md:text-8xl mb-4">{skill.icon}</div>
+                  <div className="text-4xl sm:text-7xl md:text-8xl mb-4">{skill.icon}</div>
                   <span className="text-lg md:text-xl font-semibold">{skill.name}</span>
                 </motion.div>
               );

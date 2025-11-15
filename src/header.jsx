@@ -69,7 +69,7 @@ export default function Header() {
       >
         
         
-        <ul className="flex flex-col gap-4 text-3xl px-4">
+        <ul className="flex flex-col gap-4 text-3xl px-1 md:px-4">
 
           <li className="menu-item">
             <a href="#home">
