@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from "react";
 import {
   FaUser,
@@ -9,26 +8,42 @@ import {
   FaBook,
 } from "react-icons/fa";
 
-
-
-export default function Header() {
-
+export default function Header({ refs }) {
   const [animateImage, setAnimateImage] = useState(false);
+  const [typedText, setTypedText] = useState("");
+  const fullText = "Hi, I'm Dina 👋";
 
   useEffect(() => {
+    // Typing effect
+    let index = 0;
+    const interval = setInterval(() => {
+      setTypedText(fullText.slice(0, index + 1));
+      index++;
+      if (index === fullText.length) clearInterval(interval);
+    }, 150);
+
+    // Animate profile image
     const elements = document.querySelectorAll(".menu-item");
-    elements.forEach((element, index) => {
-      element.style.animationDelay = `${index * 0.3}s`;
+    elements.forEach((element, idx) => {
+      element.style.animationDelay = `${idx * 0.3}s`;
     });
     setAnimateImage(true);
+
+    return () => clearInterval(interval);
   }, []);
+
+  // دالة scroll للـ refs
+  const scrollToSection = (ref) => {
+    if (ref && ref.current) {
+      ref.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <section
       id="home"
       className="bg-black text-white flex items-center justify-between gap-20 w-full"
     >
-    
       <div className="flex flex-col md:flex-row items-center md:items-start w-2/3 gap-10 mt-10">
         <img
           src="/profile1.jpg"
@@ -39,76 +54,68 @@ export default function Header() {
               : "-translate-y-20 opacity-0"
           }`}
         />
-    
 
         <div className="text-center md:text-left">
           <h2 className="text-3xl md:text-5xl font-semibold mb-4 pulse-effect">
-            Hi, I'm Dina 👋
+            {typedText}
           </h2>
           <p className="text-lg md:text-xl leading-relaxed">
             A passionate Front-End Developer
             <br />
             I build modern, responsive websites using React.
           </p>
-         <a
-         href="/myNewCv.pdf"
-         target="_blank"
-         rel="noopener noreferrer"
-         >
-          <button className="text-teal-600 text-lg border-2 border-teal-600 rounded-md hover:text-white transform transition-colors duration-700 focus:outline-none">
-         View My CV
-           </button>
-           </a>
+          <a href="/myNewCv.pdf" target="_blank" rel="noopener noreferrer">
+            <button className="text-teal-600 text-lg border-2 border-teal-600 rounded-md hover:text-white transform transition-colors duration-700 focus:outline-none mt-3">
+              View My CV
+            </button>
+          </a>
         </div>
       </div>
 
-
+      {/* Menu Icons */}
       <div
         id="menu"
         className="fixed top-20 right-5 md:right-10 z-50 flex justify-center items-center"
       >
-        
-        
-        <ul className="flex flex-col gap-4 text-3xl px-1 md:px-4">
+        <ul className="flex flex-col gap-4 text-xl sm:text-2xl md:text-3xl px-0.5 md:px-1">
+          <li
+            className="menu-item"
+            onClick={() =>
+              scrollToSection({ current: document.getElementById("home") })
+            }
+          >
+            <FaHome className="text-white transition duration-300 hover:opacity-50" />
+          </li>
 
-          <li className="menu-item">
-            <a href="#home">
-               <FaHome className="text-white transition duration-300 hover:opacity-50" />
-               </a>
-              </li>
-               
-               <li className="menu-item">
-                <a href="#skills">
-                  <FaBook className="text-white transition duration-300 hover:opacity-50 " />
-                  </a>
-                </li>
-                
-                <li className="menu-item">
-                   <a href="#about">
-                    <FaUser className="text-white transition duration-300 hover:opacity-50" />
-                  </a>
-                </li>
-                
-                <li className="menu-item">
-                  <a href="#education">
-                    <FaGraduationCap className="text-white transition duration-300  hover:opacity-50" />
-                    </a>
-                </li>
-                
-              <li className="menu-item">
-                <a href="#projects">
-                  <FaProjectDiagram className="text-white transition duration-300 hover:opacity-50" />
-                  </a>
-                </li>
-                
-              <li className="menu-item">
-                <a href="#contact">
-                  <FaEnvelope className="text-white transition duration-300 hover:opacity-50" />
-                  </a>
-              </li>
-              
-            </ul>
+          <li className="menu-item" onClick={() => scrollToSection(refs.skillsRef)}>
+            <FaBook className="text-white transition duration-300 hover:opacity-50" />
+          </li>
 
+          <li className="menu-item" onClick={() => scrollToSection(refs.aboutRef)}>
+            <FaUser className="text-white transition duration-300 hover:opacity-50" />
+          </li>
+
+          <li
+            className="menu-item"
+            onClick={() => scrollToSection(refs.educationRef)}
+          >
+            <FaGraduationCap className="text-white transition duration-300 hover:opacity-50" />
+          </li>
+
+          <li
+            className="menu-item"
+            onClick={() => scrollToSection(refs.projectsRef)}
+          >
+            <FaProjectDiagram className="text-white transition duration-300 hover:opacity-50" />
+          </li>
+
+          <li
+            className="menu-item"
+            onClick={() => scrollToSection(refs.contactRef)}
+          >
+            <FaEnvelope className="text-white transition duration-300 hover:opacity-50" />
+          </li>
+        </ul>
       </div>
     </section>
   );

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import {
   FaHtml5,
   FaCss3Alt,
@@ -8,7 +8,6 @@ import {
   FaGithub,
   FaBook,
   FaPaperPlane,
-  
 } from "react-icons/fa";
 import { SiTailwindcss, SiTypescript, SiReactquery, SiZod } from "react-icons/si";
 import { IoIosPaper } from "react-icons/io";
@@ -23,7 +22,16 @@ const skills = [
   { name: "React Query", icon: <SiReactquery className="text-pink-500" /> },
   { name: "Zustand", icon: <IoIosPaper className="text-gray-600" /> },
   { name: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-400" /> },
-  { name: "Next.js", icon: <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" alt="Next.js" className="w-14 h-14 object-contain" /> },
+  {
+    name: "Next.js",
+    icon: (
+      <img
+        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg"
+        alt="Next.js"
+        className="w-14 h-14 object-contain"
+      />
+    ),
+  },
   { name: "Axios", icon: <FaPaperPlane className="text-cyan-300" /> },
   { name: "GitHub", icon: <FaGithub className="text-gray-300" /> },
   { name: "Git", icon: <FaGitAlt className="text-orange-600" /> },
@@ -32,12 +40,12 @@ const skills = [
   { name: "Framer Motion", icon: <FaReact className="text-pink-300" /> },
 ];
 
-export default function Skills() {
+const Skills = forwardRef((props, ref) => {
   return (
-    <section id="skills" className="w-full bg-black text-white py-16 px-4">
+    <section ref={ref} id="skills" className="w-full bg-black text-white py-16 px-4">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl font-semibold text-center mb-6 uppercase flex items-center justify-center">
-          <FaBook className="hidden sm:block md:block mr-2 text-teal-400 text-3xl" />
+        <h2 className="text-3xl font-semibold text-center mb-6 uppercase flex items-center justify-center gap-2">
+          <FaBook className="mr-2 text-teal-400 text-3xl" />
           My Skills
         </h2>
         <p className="text-xl text-center mb-12">
@@ -67,4 +75,6 @@ export default function Skills() {
       </div>
     </section>
   );
-}
+});
+
+export default Skills;
