@@ -44,7 +44,7 @@ const Skills = forwardRef((props, ref) => {
   return (
     <section ref={ref} id="skills" className="w-full bg-black text-white py-16 px-4">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl font-semibold text-center mb-6 uppercase flex items-center justify-center gap-2">
+        <h2 className="text-3xl font-semibold text-center mb-6 uppercase flex items-center justify-center gap-2 pulse-effect  ">
           <FaBook className="mr-2 text-teal-400 text-3xl" />
           My Skills
         </h2>
