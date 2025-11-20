@@ -68,7 +68,7 @@ export default function Header({ refs }) {
       <br />
       I build modern, responsive websites using React.
     </p>
-    <a href="/myNewCv.pdf" target="_blank" rel="noopener noreferrer">
+    <a href="/MYCV.pdf" target="_blank" rel="noopener noreferrer">
       <button className="text-teal-600 text-lg border-2 border-teal-600 rounded-md hover:text-white transform transition-colors duration-700 focus:outline-none mt-3">
         View My CV
       </button>

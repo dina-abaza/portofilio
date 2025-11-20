@@ -37,7 +37,15 @@ const projectData = [
     github: "https://github.com/dina-abaza/portofilio",
     liveDemo: "https://booking-hotels-ue7g.vercel.app/"
   },
+  {
+    title: "website-portfolio",
+    description: "Developed a fully responsive company website in collaboration with a UI/UX designer, implementing modern design principles and an intuitive interface. Integrated a functional contact form connected to backend APIs, enhancing client engagement and improving overall website usability.",
+    techStack: " Next.js, Tailwind css, Framer-Motion, Figma Designs",
+    github: "https://github.com/dina-abaza/portfolio",
+    liveDemo: "https://portfolio-taupe-beta-40.vercel.app/"
+  },
 ];
+
 
 const Projects = forwardRef((props, ref) => {
   return (
