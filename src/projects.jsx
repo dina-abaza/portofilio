@@ -17,7 +17,7 @@ const projectData = [
     liveDemo: "http://e-commece-vitrine-jm7x.vercel.app"
   },
   {
-    title: "restaurant reservation",
+    title: "Restaurant Reservation",
     description: "A full-stack restaurant reservation system that allows users to book tables, log in, and communicate with the restaurant. Connected to a real Laravel back-end for managing reservations and users.",
     techStack: " React.js, Tailwind css, React Router DOM, Axios, Zustand, larvel",
     github: "https://github.com/dina-abaza/food-corner",
@@ -31,18 +31,25 @@ const projectData = [
     liveDemo: "https://down-syndrome-one.vercel.app/"
   },
   {
-    title: "booking-hotels",
+    title: "Booking-Hotels",
     description: "A full-featured hotel booking app with a real backend, allowing users to browse hotels, book rooms, pay securely via Stripe, and communicate with hotel management—all in a sleek, responsive interface built with React and Tailwind CSS.",
     techStack: " React.js, Tailwind css, React Router DOM, Axios, Zustand, framer-motion, toastify, node.js",
     github: "https://github.com/dina-abaza/portofilio",
     liveDemo: "https://booking-hotels-ue7g.vercel.app/"
   },
   {
-    title: "website-portfolio",
+    title: "Website-Portfolio",
     description: "Developed a fully responsive company website in collaboration with a UI/UX designer, implementing modern design principles and an intuitive interface. Integrated a functional contact form connected to backend APIs, enhancing client engagement and improving overall website usability.",
     techStack: " Next.js, Tailwind css, Framer-Motion, Figma Designs",
     github: "https://github.com/dina-abaza/portfolio",
     liveDemo: "https://portfolio-taupe-beta-40.vercel.app/"
+  },
+    {
+    title: "Landing-Page",
+    description: "A clean, engaging page that highlights the company’s services and identity.",
+    techStack: "Html5, Css, JavaScript, Figma Designs",
+    github: "https://github.com/dina-abaza/landing-page",
+    liveDemo: "landing-page-theta-sable.vercel.app"
   },
 ];
 
