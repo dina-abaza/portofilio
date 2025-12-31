@@ -50,7 +50,7 @@ export default function Header({ refs }) {
   return (
     <section
       id="home"
-      className="bg-black text-white flex items-center justify-center lg:justify-start md:justify-start sm:justify-center w-full"
+      className="bg-black text-white flex items-center justify-center  w-full"
     >
    <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row items-center justify-center w-2/3 gap-6 mt-10">
   <img

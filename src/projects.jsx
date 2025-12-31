@@ -49,7 +49,7 @@ const projectData = [
     description: "A clean, engaging page that highlights the company’s services and identity.",
     techStack: "Html5, Css, JavaScript, Figma Designs",
     github: "https://github.com/dina-abaza/landing-page",
-    liveDemo: "landing-page-theta-sable.vercel.app"
+    liveDemo: "https://landing-page-theta-sable.vercel.app"
   },
 ];
 
